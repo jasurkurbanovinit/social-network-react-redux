@@ -1,0 +1,31 @@
+.nav {
+	grid-area: n;
+	background-color: tomato;
+	padding: 20px;
+}
+
+.item a {
+	color: white;
+	text-decoration: none;
+}
+.item a.activeLink {
+	color: black;
+}
+.friends {
+	margin-top: 100px;
+}
+.friendsHeader {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.friendsAvatar img {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+}
+
+.friendsContainer {
+	display: flex;
+	justify-content: space-between;
+}
