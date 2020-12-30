@@ -2,10 +2,7 @@ import React from 'react';
 import s from './Navbar.module.css';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = (props) => {
-	const friendsList = props.friends.map((i) => (
-		<Friends img={i.img} name={i.name} />
-	));
+const Navbar = () => {
 	return (
 		<nav className={s.nav}>
 			<MenuLink to='/profile' label='Profile' />
@@ -16,7 +13,7 @@ const Navbar = (props) => {
 
 			<div className={s.friends}>
 				<div className={s.friendsHeader}>Friends</div>
-				<div className={s.friendsContainer}>{friendsList}</div>
+				{/* <div className={s.friendsContainer}>{friendsList}</div> */}
 			</div>
 		</nav>
 	);
