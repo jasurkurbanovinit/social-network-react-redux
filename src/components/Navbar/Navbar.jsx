@@ -10,6 +10,7 @@ const Navbar = () => {
 			<MenuLink to='/news' label='News' />
 			<MenuLink to='/music' label='Music' />
 			<MenuLink to='/settings' label='Settings' />
+			<MenuLink to='/users' label='Users' />
 
 			<div className={s.friends}>
 				<div className={s.friendsHeader}>Friends</div>
