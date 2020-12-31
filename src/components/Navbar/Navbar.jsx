@@ -31,11 +31,11 @@ const MenuLink = ({ to, label }) => {
 	);
 };
 
-const Friends = ({ img, name }) => {
-	return (
-		<div className={s.friendsAvatar}>
-			<img src={img} />
-			<div className={s.friendsName}>{name}</div>
-		</div>
-	);
-};
+// const Friends = ({ img, name }) => {
+// 	return (
+// 		<div className={s.friendsAvatar}>
+// 			<img src={img} />
+// 			<div className={s.friendsName}>{name}</div>
+// 		</div>
+// 	);
+// };

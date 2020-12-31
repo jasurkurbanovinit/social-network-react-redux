@@ -1,4 +1,3 @@
-import React from 'react';
 import Dialogs from './Dialogs';
 import {
 	sendMessageCreator,
@@ -6,7 +5,6 @@ import {
 } from './../../redux/dialogs-reducer';
 import { connect } from 'react-redux';
 let mapStateToProps = (state) => {
-	debugger;
 	return {
 		dialogsPage: state.dialogsPage,
 	};
